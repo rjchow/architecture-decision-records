@@ -2,19 +2,23 @@
 
 ## API Specification
 
-GET /auth
-Header:
+### GET /auth
+
+#### Header
+
 api-key:b2e5e88c-1473-4afc-9c02-3aba73340456
 
-Response:
+#### Response
+
 `OK`
 
-GET /quota/{nric}
+#### GET /quota/{nric}
 
-Header:
+#### Header
+
 api-key:b2e5e88c-1473-4afc-9c02-3aba73340456
 
-Response:
+#### Response
 
 ```json
 {
@@ -27,12 +31,13 @@ Response:
 }
 ```
 
-GET /quota/{nric}
+### GET /quota/{nric}
 
-Header:
+#### Header
+
 api-key:b2e5e88c-1473-4afc-9c02-3aba73340456
 
-Response:
+#### Response
 
 ```json
 {
@@ -54,12 +59,13 @@ or
 }
 ```
 
-POST /transactions/{nric}
+### POST /transactions/{nric}
 
-Header:
+#### Header
+
 api-key:b2e5e88c-1473-4afc-9c02-3aba73340456
 
-Request:
+#### Request
 
 ```json
 {
@@ -67,7 +73,7 @@ Request:
 }
 ```
 
-Response:
+#### Response
 
 ```json
 {
