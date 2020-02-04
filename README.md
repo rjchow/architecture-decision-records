@@ -8,7 +8,7 @@
 
 Sliding window log is the default configuration of the API endpoint. With this algorithm it allows one to collect/purchase X units of the goods over Y period.
 
-### Static quota
+### Static quota - up to X
 
 | One can purchase up to 3 boxes of mask
 
