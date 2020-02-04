@@ -4,17 +4,17 @@
 
 ### Sliding window log - X quantity over Y time period
 
-| One can purchase 5 boxes of mask over the last 1 week
+> One can purchase 5 boxes of mask over the last 1 week
 
 Sliding window log is the default configuration of the API endpoint. With this algorithm it allows one to collect/purchase X units of the goods over Y period.
 
 ### Static quota - up to X
 
-| One can purchase up to 3 boxes of mask
+> One can purchase up to 3 boxes of mask
 
 one week later, we can update X to a different number to reflect the policy:
 
-| One can purchase up to 5 boxes of mask (since the start of the ration)
+> One can purchase up to 5 boxes of mask (since the start of the ration)
 
 Using the same algorithm, we can change the sliding window log to support a static quota (which can be updated). By changing Y to a sufficiently large period, we exercise a fixed quota to everyone up to X.
 
